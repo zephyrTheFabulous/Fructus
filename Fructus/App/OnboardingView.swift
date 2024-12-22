@@ -19,7 +19,7 @@ struct OnboardingView: View {
           FruitCardView(fruit: item)
         } //: LOOP
       } //: TAB
-      .tabViewStyle(.tabBarOnly)
+      .tabViewStyle(.page)
       .padding(.vertical, 20)
     }
 }
